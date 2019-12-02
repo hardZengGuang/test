@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+           version="2.5">
+
+    <servlet>
+        <servlet-name>AllServlet</servlet-name>
+        <servlet-class>com.web.AllServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AgainServlet</servlet-name>
+        <servlet-class>com.web.AgainServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AllServlet</servlet-name>
+        <url-pattern>/all</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AgainServlet</servlet-name>
+        <url-pattern>/a</url-pattern>
+    </servlet-mapping>
+
+
+
+
+</web-app>
